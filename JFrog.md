@@ -89,8 +89,8 @@ services:
 
 ```bash
 # from ~/jfrog
-docker-compose pull
-docker-compose up -d
+docker compose pull
+docker compose up -d
 
 # follow logs
 docker logs -f artifactory
